@@ -1,14 +1,10 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {
-    container,
-    heading,
-    navLinks,
-    navLinkItem,
-    navLinkText
+
   } from './layout.module.css'
 
-const layout = ({ pageTitle, children }) => {
+const LinkLayout = ({ LinkBox }) => {
   return (
     <div className={container}>
       <title>{pageTitle}</title>
@@ -39,4 +35,4 @@ const layout = ({ pageTitle, children }) => {
   )
   }    
          
-export default layout
+export default LinkLayout
