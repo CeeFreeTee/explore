@@ -1,14 +1,15 @@
 .container {
     margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
-    background-color: #00ff6a;
+    max-width: 1200px;
+    max-height: 100px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: #000000;
     text-align: center;
     padding: 20px;
   }
 
   .heading {
-    color: rebeccapurple;
+    color: rgb(255, 0, 0);
   }
   .nav-links {
     display: flex;
@@ -19,5 +20,5 @@
     padding-right: 2rem;
   }
   .nav-link-text {
-    color: black;
+    color: rgb(255, 0, 0);
   }
